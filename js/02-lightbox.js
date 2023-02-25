@@ -19,8 +19,9 @@ function createGalleryItemsMarkup(items) {
   }).join('');
 }
 
-
+// підключення бібліотеки 
 const lightbox = new SimpleLightbox('.gallery a', {
+  // підлючення даніх з бібліотекі які треба змінити
   captionsData: 'alt', captionPosition: 'bottom', captionDelay: 250
 });
 
